@@ -10,7 +10,10 @@ import static java.lang.System.out;
 public class SerializarCBG {
 
     public static void main(String[] args) {
+        serializar();
+    }
 
+    public static void serializar(){
         CrashBandicoot_Games CB1 = new CrashBandicoot_Games("Crash Bandicoot", "Naughty Dog", 1996, "PlayStation");
         CrashBandicoot_Games CB2 = new CrashBandicoot_Games("Crash Bandicoot 2: Cortex Strikes Back", "Naughty Dog", 1997, "PlayStation");
         CrashBandicoot_Games CB3 = new CrashBandicoot_Games("Crash Bandicoot 3: Warped", "Naughty Dog", 1998, "PlayStation");

@@ -1,12 +1,14 @@
 package org.example.Ejercicios;
 
-public class CrashBandicoot_Games implements java.io.Serializable {
+import java.io.Serializable;
+
+public class TonyHawksProSk8r_Games implements Serializable {
     private String name;
     private transient String developer;
     private int releaseYear;
     private transient String platform;
 
-    public CrashBandicoot_Games(String name, String developer, int releaseYear, String platform) {
+    public TonyHawksProSk8r_Games(String name, String developer, int releaseYear, String platform) {
         this.name = name;
         this.developer = developer;
         this.releaseYear = releaseYear;
